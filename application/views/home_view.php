@@ -85,10 +85,25 @@ require_once 'components/header.php';
 </section>
 
 <section id="tugas">
-  <div class="container mt-3">
+  <div class="container my-4">
     <div class="row">
       <div class="col">
-        <h2 class="text-center">Tugas</h2>
+        <h2 class="text-center">Tugas Terbaru</h2>
+      </div>
+    </div>
+    <div class="row justify-content-center">
+      <div class="col-md-4">
+        <a href="#" style="text-decoration:none">
+          <div class="card p-4 shadow" style="width: 18rem;">
+              <span>
+              <img src="<?php echo base_url("assets/php.png")?>" width="220" alt="tugas">
+              </span>
+              <div class="card-body">
+                <h5 class="card-title text-dark">Modul Praktikum PHP dan HTML</h5>
+                <p class="card-text gray ">Muh. Shaim, S.T</p>
+              </div>
+          </div>
+          </a>
       </div>
     </div>
   </div>
